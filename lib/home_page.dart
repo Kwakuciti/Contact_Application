@@ -5,8 +5,64 @@ import 'package:flutter/widgets.dart';
 import 'contact_view.dart/contact_view.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+   HomePage({Key? key}) : super(key: key);
 
+  final List<Map<String,String>> data =[
+    {
+      'name':'Mattew Agyei',
+      'phone':'+233 525 234 432',
+      'email':'mattewagyei@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },
+    {
+      'name':'John Oti ',
+      'phone':'+233 245 234 432',
+      'email':'johnoti@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },
+    {
+      'name':'Ernest Obi ',
+      'phone':'+233 275 300 432',
+      'email':'ernestobi@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },{
+      'name':'Mike Oben ',
+      'phone':'+233 555 234 432',
+      'email':'mikeoben@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },{
+      'name':'Ruth Minta ',
+      'phone':'+233 233 234 492',
+      'email':'ruthmintah@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },{
+      'name':'joyce Anim ',
+      'phone':'+233 555 234 432',
+      'email':'joyceanim@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },{
+      'name':'Regan ',
+      'phone':'+233 325 234 432',
+      'email':'kwekuciti@gmail.com',
+      'country':'Ghana',
+      'region':'Koforidua',
+    
+    },
+    ];
+
+    
   @override
   Widget build(BuildContext context) {
     return Scaffold(
